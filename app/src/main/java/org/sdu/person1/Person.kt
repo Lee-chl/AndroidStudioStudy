@@ -1,7 +1,7 @@
 package org.sdu.person1
 
 //open = 상속이 가능한 클래스다.
-open class Person(var name: String?) {
+open class Person(open var name: String?) {
 
     var age: Int? = null
     var address: String? = null
@@ -16,6 +16,10 @@ open class Person(var name: String?) {
 
         this.age = age
         this.address = address
+    }
+
+    open fun walk(){
+        println("사람이 걷는다.")
     }
 
 

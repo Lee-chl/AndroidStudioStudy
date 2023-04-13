@@ -8,7 +8,7 @@ android {
     compileSdk 33
 
     defaultConfig {
-        applicationId "org.sdu.person1"
+        applicationId "org.sdu.person2"
         minSdk 24
         targetSdk 33
         versionCode 1
@@ -16,6 +16,7 @@ android {
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
+    
     buildFeatures {
 
         viewBinding true
