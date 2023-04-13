@@ -14,7 +14,6 @@ open class Person(var name: String?) {
     constructor(name: String?, age: Int?, address: String?) : this(name) {
         println("Person의 직접 정의한 생성자 호출됨")
 
-        this.name = name
         this.age = age
         this.address = address
     }
